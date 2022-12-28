@@ -39,8 +39,8 @@ namespace SpotifyGenerator
                 formContent.Headers.ContentType.MediaType = "multipart/form-data";
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("multipart/form-data"));
 
-                string mail = "seuth" + new Random().Next(0, 999) + "tool" + new Random().Next(0, 99999) + "@gmail.com";
-                string pass = "seuth" + new Random().Next(0, 9999999);
+                string mail = "bsp" + new Random().Next(0, 999) + "welt" + new Random().Next(0, 99999) + "@gmail.com";
+                string pass = "bsp" + new Random().Next(0, 9999999);
 
                 formContent.Add(new StringContent(pass), "password_repeat");
                 formContent.Add(new StringContent("1"), "iagree");
